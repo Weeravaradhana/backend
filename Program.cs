@@ -19,7 +19,7 @@ builder.Services.AddDbContext<CampusEatsDbContext>(options =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("Frontend", policy =>
-        policy.WithOrigins("https://campuseats-dashboard-seven.vercel.app")
+        policy.WithOrigins("https://frontend-five-sage-13.vercel.app/")
               .AllowAnyHeader()
               .AllowAnyMethod());
 });
